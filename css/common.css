@@ -28,3 +28,14 @@ button {
   list-style: none;
   justify-content: space-between;
 }
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+#boxes > div:not(:last-child) {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
